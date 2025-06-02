@@ -1,7 +1,5 @@
 **Langkah 6: Dokumentasi (`README.md`)** ✅
 
-Berikut contoh isi `README.md` yang bisa kamu salin-tempel langsung ke file:
-
 ---
 
 ```markdown
@@ -43,7 +41,7 @@ flutter pub get
 flutter run
 ````
 
-Pastikan kamu menggunakan **Flutter SDK versi 3.7.2 atau kompatibel**.
+Pastikan menggunakan **Flutter SDK versi 3.7.2 atau kompatibel**.
 
 ## 🔄 Fitur Aplikasi
 
