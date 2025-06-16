@@ -84,3 +84,20 @@ Jalankan perintah berikut di terminal proyek:
 
 ```bash
 flutter test
+
+## ✅ Unit Testing: Email Validator
+
+### Fungsi Diuji
+`isValidEmail(String email)` adalah fungsi validasi sederhana yang mengecek apakah string mengandung simbol `@` dan `.`. 
+
+### Pola AAA
+
+- **Arrange:** Menentukan input email (`test@example.com`).
+- **Act:** Memanggil fungsi `isValidEmail(email)`.
+- **Assert:** Menggunakan `expect(result, true)` untuk memverifikasi hasilnya sesuai ekspektasi.
+
+### File Terkait
+
+- `lib/core/utils/validators.dart`
+- `test/validators_test.dart`
+
